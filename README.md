@@ -1,15 +1,27 @@
-📺 Flow TV ExperienceRetro-Futuristic AI-Powered CRT Television SimulatorFlow TV Experience is an interactive, browser-based CRT television simulator combining 1990s analog television aesthetics with multimodal AI capabilities powered by Google Gemini.
+# 📺 Flow TV Experience
 
-🌟 Key Features📺 Retro CRT Television MechanicsProcedural Canvas Rendering: Dynamic shader-like visuals generated entirely via HTML5 Canvas (Synthwave horizons, Cyber Matrix streams, Anime Starfields, 8-Bit Arcade, SMPTE Test Pattern).Analog CRT Aesthetics: Curvature illusion, scanline filters, dynamic static noise bursts, power-off collapse animations, and On-Screen Display (OSD) status banners.Osiris AI Channel Embed: Direct iframe integration of external neural applications (https://osirisai.live).Interactive Control Interface: Channel surfing bar, power toggle, volume control, and modal drawers.🧠 Deep Gemini AI Integration🎙️ Neural Voice Station Announcer: Dynamically creates station warnings and ID scripts via gemini-3-flash-preview and converts them to speech via gemini-2.5-flash-preview-tts.🧠 Grounded Channel Guide: Queries gemini-3-flash-preview with Google Search grounding to synthesize background context and lore for active channels.📅 Up-Next Schedule Predictor: Uses structured JSON outputs from Gemini to generate future TV schedules across all channels on the network.💬 AI Live Broadcast Chat: Real-time conversation drawer with a station-aware AI companion tailored to the current channel theme.📁 Repository Structure.
+Retro-Futuristic AI-Powered CRT Television SimulatorFlow TV Experience is an interactive, browser-based CRT television simulator combining 1990s analog television aesthetics with multimodal AI capabilities powered by Google Gemini.
+
+🌟 Key Features📺 Retro CRT Television MechanicsProcedural Canvas Rendering: Dynamic shader-like visuals generated entirely via HTML5 Canvas (Synthwave horizons, Cyber Matrix streams, Anime Starfields, 8-Bit Arcade, SMPTE Test Pattern).Analog CRT Aesthetics: Curvature illusion, scanline filters, dynamic static noise bursts, power-off collapse animations, and On-Screen Display (OSD) status banners.Osiris AI Channel Embed: Direct iframe integration of external neural [applications ](https://osirisai.live)
+
+.Interactive Control Interface: Channel surfing bar, power toggle, volume control, and modal drawers.🧠 Deep Gemini AI Integration🎙️ Neural Voice Station Announcer: Dynamically creates station warnings and ID scripts via `gemini-3-flash-preview` and converts them to speech via `gemini-2.5-flash-preview-tts`.
+🧠 Grounded Channel Guide: Queries gemini-3-flash-preview with Google Search grounding to synthesize background context and lore for active channels.📅 Up-Next Schedule Predictor: Uses structured JSON outputs from Gemini to generate future TV schedules across all channels on the network.💬 AI Live Broadcast Chat: Real-time conversation drawer with a station-aware AI companion tailored to the current channel theme.📁
+Repository Structure.
 ├── index.html          # Complete Single-Page Application (HTML5, Tailwind, JS, Canvas)
 ├── summary.md          # Comprehensive Project Summary & Architecture Blueprint
 ├── server.js           # Lightweight Node.js local development server
 ├── package.json        # Node.js configuration & startup scripts
 ├── .gitignore          # Git ignore configuration
 └── LICENSE             # MIT Open Source License
-🚀 Quick StartBecause Flow TV Experience is engineered as a zero-build Single Page Application, you can run it directly in any modern browser without complex build chains.Method 1: Direct File OpenSimply double-click index.html or open it directly in your web browser.Method 2: Local Development ServerFor optimal performance (specifically iframe security handling and CORS compatibility), run with Node.js:Clone the repository:git clone https://github.com/your-username/flow-tv-experience.git
+🚀 Quick StartBecause Flow TV Experience is engineered as a zero-build Single Page Application, you can run it directly in any modern browser without complex build chains.Method 1: Direct File OpenSimply double-click index.html or open it directly in your web 
+browser.Method 2: Local Development ServerFor optimal performance (specifically iframe security handling and CORS compatibility), run with Node.js:
+```bash
+man Clone-git https://github.com/auraecosystem/flow-tv-experience.git
 cd flow-tv-experience
-Start the local server:npm start
-Open your browser and navigate to:http://localhost:3000
+Start the local server:
+npm start
+```
+Open your browser and navigate to:
+(http://localhost:3000)
 ⚙️ Gemini API ConfigurationTo enable real-time Gemini AI capabilities (Voice Announcer, Channel Guide, Up-Next Predictor, and Chat):Obtain a Google Gemini API Key from Google AI Studio.Open index.html in an editor.Locate line const apiKey = ""; in the <script> section and paste your key:const apiKey = "YOUR_GEMINI_API_KEY_HERE";
 Note: The application includes graceful offline fallbacks for all AI features if an API key is not supplied.🛠️ Technical StackAreaTechnologyFrontend FrameVanilla JavaScript (ES6+), HTML5 CanvasStyling FrameworkTailwind CSS (CDN), Custom CRT Shaders & AnimationsTypographyGoogle Fonts (VT323, Share Tech Mono, Inter)AI LLM Enginegemini-3-flash-preview (Text, Search Grounding, Chat)Voice Synthesisgemini-2.5-flash-preview-tts & Web Speech APIExternal IntegrationWeb iFrames with enhanced security sandboxing📜 LicenseThis project is open-source and available under the MIT License.
