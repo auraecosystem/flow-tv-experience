@@ -9,8 +9,8 @@ on:
 jobs:
   build:
 
-    runs-on: github
-
+    runs-on: ubuntu-latest
+    
     steps:
     - uses: actions/checkout@v5
     - name: Build the site in the jekyll/builder container
