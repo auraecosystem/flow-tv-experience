@@ -1,0 +1,13 @@
+{
+  "name": "flow-tv-experience",
+  "version": "3.5.0",
+  "description": "Retro-futuristic interactive CRT TV simulator with Google Gemini AI integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
