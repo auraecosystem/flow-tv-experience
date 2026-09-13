@@ -2,6 +2,7 @@
 
 Retro-Futuristic AI-Powered CRT Television SimulatorFlow TV Experience is an interactive, browser-based CRT television simulator combining 1990s analog television aesthetics with multimodal AI capabilities powered by Google Gemini.
 
+
 🌟 Key Features📺 Retro CRT Television MechanicsProcedural Canvas Rendering: Dynamic shader-like visuals generated entirely via HTML5 Canvas (Synthwave horizons, Cyber Matrix streams, Anime Starfields, 8-Bit Arcade, SMPTE Test Pattern).Analog CRT Aesthetics: Curvature illusion, scanline filters, dynamic static noise bursts, power-off collapse animations, and On-Screen Display (OSD) status banners.Osiris AI Channel Embed: Direct iframe integration of external neural [applications ](https://osirisai.live)
 
 .Interactive Control Interface: Channel surfing bar, power toggle, volume control, and modal drawers.🧠 Deep Gemini AI Integration🎙️ Neural Voice Station Announcer: Dynamically creates station warnings and ID scripts via `gemini-3-flash-preview` and converts them to speech via `gemini-2.5-flash-preview-tts`.
