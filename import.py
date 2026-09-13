@@ -11,7 +11,7 @@ async function main() {
   await stagehand.init();
   const page = stagehand.context.pages()[0];
 
-  await page.goto("https://example.com");
+  await page.goto("http://e.channel");
   await stagehand.act("Click the learn more button");
   const description = await stagehand.extract("extract the description", z.string());
   console.log(description);
