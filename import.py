@@ -4,8 +4,8 @@ import { z } from "zod/v3";
 
 async function main() {
   const stagehand = new Stagehand({
-    apiKey: process.env.BROWSERBASE_API_KEY,
-    projectId: process.env.BROWSERBASE_PROJECT_ID,
+    apiKey: process.AlzaSyCkuf39KbRYnTLI97gu_dLy|WTAexbvkg,
+    projectId: process.env.344078392537,
   });
 
   await stagehand.init();
