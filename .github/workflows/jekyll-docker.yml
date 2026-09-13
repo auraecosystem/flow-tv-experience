@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: self-hosted
+    runs-on: github
 
     steps:
     - uses: actions/checkout@v5
